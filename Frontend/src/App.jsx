@@ -27,7 +27,7 @@ function App() {
       // ✅ Loading message
       setReview("⏳ **Reviewing your code...**");
 
-      const res = await axios.post("http://localhost:3000/ai/review", {
+      const res = await axios.post("https://aicodereviewer-backend-z9et.onrender.com/ai/review", {
         code,
       });
 
